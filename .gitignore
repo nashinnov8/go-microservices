@@ -1,0 +1,33 @@
+# Binaries and build artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+cover.out
+c.out
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database data and volumes
+postgres_data/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
